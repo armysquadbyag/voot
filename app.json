@@ -1,7 +1,7 @@
 {
-    "name": "DATE_TIME_USERBOT-TeLeTiPs",
-    "description": "Powerful Telegram userbot to turn your PROFILE PICTURE & LAST NAME into a real time clock & to change your BIO automatically.",
-    "repository": "https://github.com/teletips/DATE_TIME_USERBOT-TeLeTiPs",
+    "name": "HETANI BOT",
+    "description": "JDKDKD",
+    "repository": "https://github.com/armysquadbyag/test",
     "keywords": [
         "date time userbot",
         "changes telegram bio automatically",
@@ -19,12 +19,18 @@
             "description": "Get from my.telegram.org/apps",
             "required": true
         },
-        "SESSION_NAME": {
-            "description": "A valid Pyrogram session name",
+        "BOT_TOKEN": {
+            "description": "Get from botfather",
             "required": true
         },
-        "TIME_ZONE": {
-            "description": "Your time zone (Example: Asia/Kolkata)",
+        "WORKERS": {
+            "description": "Dont edit this",
+            "value": "50",
+            "required": true
+        },
+        "THRESHOLD": {
+            "description": "Dont edit this",
+            "value": "10",
             "required": true
         }
     },
