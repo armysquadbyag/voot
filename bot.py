@@ -11,7 +11,7 @@ bot = Client('hentaibot',
              api_id= int(os.environ["API_ID"]),
              api_hash= os.environ["API_HASH"],
              bot_token= os.environ["BOT_TOKEN"],
-             workers= int(os.environ["WORKERS"]),,
+             workers= int(os.environ["WORKERS"]),
              sleep_threshold= int(os.environ["THRESHOLD"]),)
 
 @bot.on_message(filters.command('start') & filters.private)
