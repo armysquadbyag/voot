@@ -24,4 +24,4 @@ Fork repo and edit config file , change `armysquadbyag` as your `github username
 ## Credits 
 
 Kenil For coding this bot 🤓
-Me for adding heroku support 😌
+\nMe for adding heroku support 😌
