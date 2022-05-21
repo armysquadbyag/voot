@@ -11,11 +11,14 @@
 
 * `THRESHOLD`: Don't run your mind! leave as it is, Don't change this also .
 # commands for botfather :-
-    start - Check me I am Horny or not
+    start - Check me I am Horny or not 😌
     pussy - get delicious pussy🐱
     cum - became wet 💦
     blowjob - lovely bj's 🔞
     creampie - sexy creampie 
+    ass - perfect 🍑
+    bdsm - BDSM lover 🗡️
+    gangbang - just bang her 😈
 ## Deploy to Heroku
 Fork repo and edit config file , change `armysquadbyag` as your `github username` and `hetani` your `forked repo name`
 
