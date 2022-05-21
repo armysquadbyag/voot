@@ -1,14 +1,10 @@
 {
     "name": "HETANI BOT",
-    "description": "JDKDKD",
-    "repository": "https://github.com/armysquadbyag/test",
+    "description": "This bot can send adult image in your pm",
+    "repository": "https://github.com/armysquadbyag/hetani",
     "keywords": [
-        "date time userbot",
-        "changes telegram bio automatically",
-        "turns profile picture in to a real time clock",
-        "turns last name in to a real time clock",
-        "Telegram userbot",
-        "Pyrogram userbot"
+        "Telegram hetani",
+        "Pyrogram hetani"
     ],
     "env": {
         "API_ID": {
