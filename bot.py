@@ -62,5 +62,39 @@ def creampie(bot, message):
     data = r.json()
     img_link = str(data)
     message.reply_photo(img_link, quote=True)
-print("I am alive")
+
+# ass section
+
+@bot.on_message(filters.command('ass') & filters.private)
+def ass(bot, message):
+    ass_api_url = base_url + "hmtai/v2_4/ass"
+    # print(ass_api_url)
+    r = requests.get(ass_api_url)
+    data = r.json()
+    img_link = str(data)
+    message.reply_photo(img_link, quote=True)
+
+# bdsm section 
+
+@bot.on_message(filters.command('bdsm') & filters.private)
+def bdsm(bot, message):
+    bdsm_api_url = base_url + "hmtai/v2_4/bdsm"
+    # print(bdsm_api_url)
+    r = requests.get(bdsm_api_url)
+    data = r.json()
+    img_link = str(data)
+    message.reply_photo(img_link, quote=True)
+
+# gangbang section 
+
+@bot.on_message(filters.command('gangbang') & filters.private)
+def gangbang(bot, message):
+    gangbang_api_url = base_url + "hmtai/v2_4/gangbang"
+    # print(gangbang_api_url)
+    r = requests.get(gangbang_api_url)
+    data = r.json()
+    img_link = str(data)
+    message.reply_photo(img_link, quote=True)
+
+print("I am alive 😎")
 bot.run()
