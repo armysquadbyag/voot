@@ -2,6 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import ChatPermissions
 import pickledb
 import asyncio
+import os
 
 db = pickledb.load("sldlink.db", True)
 bot = Client('stevebot',
