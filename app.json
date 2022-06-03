@@ -1,10 +1,9 @@
 {
     "name": "HETANI BOT",
-    "description": "This bot can send adult image in your pm",
-    "repository": "https://github.com/armysquadbyag/hetani",
+    "description": " DRM REMOVER",
+    "repository": "https://github.com/armysquadbyag/voot",
     "keywords": [
-        "Telegram hetani",
-        "Pyrogram hetani"
+        "bot"
     ],
     "env": {
         "API_ID": {
