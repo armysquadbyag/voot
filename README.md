@@ -10,21 +10,13 @@
 * `WORKERS`: Leave it as it is, Dont change value.
 
 * `THRESHOLD`: Don't run your mind! leave as it is, Don't change this also .
-# commands for botfather :-
-    start - Check me I am Horny or not 😌
-    pussy - get delicious pussy🐱
-    cum - became wet 💦
-    blowjob - lovely bj's 🔞
-    creampie - sexy creampie 
-    ass - perfect 🍑
-    bdsm - BDSM lover 🗡️
-    gangbang - just bang her 😈
 ## Deploy to Heroku
 Fork repo and edit config file , change `armysquadbyag` as your `github username` and `hetani` your `forked repo name`
 
-[![Deploy 2 Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/armysquadbyag/hetani )
+[![Deploy 2 Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/armysquadbyag/voot )
 
 ## Credits 
 
 * Kenil For coding this bot 🤓
 * Me for adding heroku support 😌
+* Steve For method
