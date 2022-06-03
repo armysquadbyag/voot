@@ -11,8 +11,6 @@
 
 * `THRESHOLD`: Don't run your mind! leave as it is, Don't change this also .
 ## Deploy to Heroku
-Fork repo and edit config file , change `armysquadbyag` as your `github username` and `hetani` your `forked repo name`
-
 [![Deploy 2 Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/armysquadbyag/voot )
 
 ## Credits 
