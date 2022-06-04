@@ -44,7 +44,7 @@ async def id(bot, message):
             final_link = f"{sld_link_2}{id}" # final link https://sldhnecdnems02.cdnsrv.jio.com/jiobeats.cdn.jio.com/content/entry/data/6/27/05c42750ce6611ecb02fb72cf54ee32b_4192.mp4
             await bot.edit_message_text(
                 chat_id=message.chat.id,
-                message_id=process.message_id,
+                message_id=process_id,
                 text=f"**Here Is Your Link:**\n\n`{final_link}`"
                 )
             # await message.reply_text(f"**Here Is Your Link:**\n\n`{final_link}`", quote= True)
@@ -53,7 +53,7 @@ async def id(bot, message):
             await message.reply_text(f"**Please Provied Code ID Along With Command**", quote=True)
     except KeyError:
             error_msg = await message.reply_text(f"**Error:**\n`Please Send The Jio Link First`", quote=True)
-            del_msg_id = (int(error_msg.message_id) - 1)
+            del_msg_id = (int(error_msg.id) - 1)
             await bot.delete_messages(message.chat.id, del_msg_id)
 print("Bot Started!")
 bot.run()
