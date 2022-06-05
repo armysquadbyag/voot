@@ -44,7 +44,7 @@ async def id(bot, message):
             final_link = f"{sld_link_2}{id}" # final link https://sldhnecdnems02.cdnsrv.jio.com/jiobeats.cdn.jio.com/content/entry/data/6/27/05c42750ce6611ecb02fb72cf54ee32b_4192.mp4
             await bot.edit_message_text(
                 chat_id=message.chat.id,
-                message_id=process_id,
+                message_id=process.id,
                 text=f"**Here Is Your Link:**\n\n`{final_link}`"
                 )
             # await message.reply_text(f"**Here Is Your Link:**\n\n`{final_link}`", quote= True)
