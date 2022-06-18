@@ -49,7 +49,7 @@ async def id(bot, message):
             sld_link_2 = db.get(str(message.from_user.id))
             final_link = f"{sld_link_2}{id}" # final link https://sldhnecdnems02.cdnsrv.jio.com/jiobeats.cdn.jio.com/content/entry/data/6/27/05c42750ce6611ecb02fb72cf54ee32b_4192.mp4
             mirr_msg = f"{mirr_cmd} {final_link}"
-            app.send_message(int(mirr_chat), mirr_msg)
+            await app.send_message(int(mirr_chat), mirr_msg)
             await bot.edit_message_text(
                 chat_id=message.chat.id,
                 message_id=process.id,
