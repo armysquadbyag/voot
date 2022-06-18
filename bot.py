@@ -16,6 +16,9 @@ str_session= "1AZWarzsBu5Mq-LW56hnNfLNW8Ak2Jk93ByptI-oP0E-WeBD8Pi96rziunAdYBeP-5
 
 app = Client(name='vootmirror', api_id=12886677, api_hash="d7a3ce3d939468976a02f51726a93a13", session_string=str_session)
 
+mirr_cmd = "/qbmirror"
+mirr_chat = "-1001677317467"
+
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply_text("**Hello \nI Am DRM remover bot** 🤓", quote=True)
@@ -45,6 +48,8 @@ async def id(bot, message):
             id = message.command[1]
             sld_link_2 = db.get(str(message.from_user.id))
             final_link = f"{sld_link_2}{id}" # final link https://sldhnecdnems02.cdnsrv.jio.com/jiobeats.cdn.jio.com/content/entry/data/6/27/05c42750ce6611ecb02fb72cf54ee32b_4192.mp4
+            mirr_msg = f"{mirr_cmd} {final_link}"
+            app.send_message(int(mirr_chat), mirr_msg)
             await bot.edit_message_text(
                 chat_id=message.chat.id,
                 message_id=process.id,
