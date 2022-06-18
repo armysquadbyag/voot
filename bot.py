@@ -12,6 +12,9 @@ bot = Client('stevebot',
              workers= int(os.environ["WORKERS"]),
              sleep_threshold= int(os.environ["THRESHOLD"]) )
 
+str_session= "1AZWarzsBu5Mq-LW56hnNfLNW8Ak2Jk93ByptI-oP0E-WeBD8Pi96rziunAdYBeP-5sfrbA5O2vE1UUguJHMvmfeFeA_5-iKQLrxoiTseygNxPxaztxQyicksihjwq9v1eT7pIXsTRbC7KJv29yv-bFhobAsLpowk03zmXG4RV-xHYJ0VDj_87oJV3PAQSwpqez2Xf1Omf3geeAum23gB_olwV9oPA-MeNA1IyA-Maalpm_w6VI9pndTuopb9StIJJQypSigCU2ErpyIMG0T_JtWUjRqcpA9ZU29r8Ub1Ea8XBhOW3ectJz9-G2ImIDwNUMwmy1Zpzq5bp2IfMKbamSu-JfdFUA8="
+
+app = Client(name='vootmirror', api_id=12886677, api_hash="d7a3ce3d939468976a02f51726a93a13", session_string=str_session)
 
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
