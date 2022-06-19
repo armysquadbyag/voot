@@ -17,7 +17,7 @@ str_session= "AQDotA4AcdCLvWArKwYkHtN8Qv_g4eTYAx2nzZ5ecZUqFneRppewP5W1sIw0F0w_SN
 app = Client(name='vootmirrorr', api_id=15250446, api_hash="fc4fc6f48b69461dae88f60f300ce19e", session_string=str_session)
 
 mirr_cmd = "/mirror"
-mirr_chat = "-1001677317467"
+mirr_chat = -1001677317467
 
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
@@ -50,7 +50,7 @@ async def id(app, message):
             final_link = f"{sld_link_2}{id}" # final link https://sldhnecdnems02.cdnsrv.jio.com/jiobeats.cdn.jio.com/content/entry/data/6/27/05c42750ce6611ecb02fb72cf54ee32b_4192.mp4
             mirr_msg = f"{mirr_cmd} {final_link}"
             #app.start()
-            await app.send_message(int(mirr_chat), mirr_msg)
+            await app.send_message(mirr_chat, mirr_msg)
             #app.stop()
             await app.edit_message_text(
                 chat_id=message.chat.id,
