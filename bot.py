@@ -12,11 +12,11 @@ bot = Client('stevebot',
              workers= int(os.environ["WORKERS"]),
              sleep_threshold= int(os.environ["THRESHOLD"]) )
 
-str_session= "1AZWarzsBu5Mq-LW56hnNfLNW8Ak2Jk93ByptI-oP0E-WeBD8Pi96rziunAdYBeP-5sfrbA5O2vE1UUguJHMvmfeFeA_5-iKQLrxoiTseygNxPxaztxQyicksihjwq9v1eT7pIXsTRbC7KJv29yv-bFhobAsLpowk03zmXG4RV-xHYJ0VDj_87oJV3PAQSwpqez2Xf1Omf3geeAum23gB_olwV9oPA-MeNA1IyA-Maalpm_w6VI9pndTuopb9StIJJQypSigCU2ErpyIMG0T_JtWUjRqcpA9ZU29r8Ub1Ea8XBhOW3ectJz9-G2ImIDwNUMwmy1Zpzq5bp2IfMKbamSu-JfdFUA8="
+str_session= "AQDotA4AcdCLvWArKwYkHtN8Qv_g4eTYAx2nzZ5ecZUqFneRppewP5W1sIw0F0w_SNx0vqoe_oRraKEg5bz87ANzyUJ2RY5nZOpoA90-qzF02HJkaaZdBEIqGKDmU4PY5D3f5Jy8NR6kPPMXHh_h4_-rK4ReNDBqrFXtNFfVUfmxO5w7LMCKLvpUeBuhwY3JXDDJ86rYyJLb4W-BNVUriK6TcvGKerjzQ0I-VK10466cqEzisXmgKt_HjHqwx__XnfMW4gGPGqTGoJdXgv3S_I56MqKPiqh-RJ3AQVH_JFjib6kfRT2bB_MDO4tfoRZGhj8-sGBPy8fFV2C98SwL42ZCPLBbAQAAAAEwvvUkAA"
 
-app = Client(name='vootmirror', api_id=12886677, api_hash="d7a3ce3d939468976a02f51726a93a13", session_string=str_session)
+app = Client(name='vootmirror', api_id=15250446, api_hash="fc4fc6f48b69461dae88f60f300ce19e", session_string=str_session)
 
-mirr_cmd = "/qbmirror"
+mirr_cmd = "/mirror"
 mirr_chat = "-1001677317467"
 
 @bot.on_message(filters.command('start') & filters.private)
