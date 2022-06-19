@@ -38,7 +38,7 @@ async def convert_link(bot, message):
         await message.reply_text("**Please Provied Jio Link Along With Command**", quote=True)
 
 @bot.on_message(filters.command('id') & filters.private)
-async def id(bot,app, message):
+async def id(app, message):
     try:
         if len(message.command) > 1:
             # ggg
@@ -52,7 +52,7 @@ async def id(bot,app, message):
             #app.start()
             await app.send_message(int(mirr_chat), mirr_msg)
             #app.stop()
-            await bot.edit_message_text(
+            await app.edit_message_text(
                 chat_id=message.chat.id,
                 message_id=process.id,
                 text=f"**Here Is Your Link:**\n\n`{final_link}`"
