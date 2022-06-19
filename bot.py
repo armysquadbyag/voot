@@ -38,7 +38,7 @@ async def convert_link(bot, message):
         await message.reply_text("**Please Provied Jio Link Along With Command**", quote=True)
 
 @bot.on_message(filters.command('id') & filters.private)
-async def id(bot, message):
+async def id(bot,app, message):
     try:
         if len(message.command) > 1:
             # ggg
@@ -49,9 +49,9 @@ async def id(bot, message):
             sld_link_2 = db.get(str(message.from_user.id))
             final_link = f"{sld_link_2}{id}" # final link https://sldhnecdnems02.cdnsrv.jio.com/jiobeats.cdn.jio.com/content/entry/data/6/27/05c42750ce6611ecb02fb72cf54ee32b_4192.mp4
             mirr_msg = f"{mirr_cmd} {final_link}"
-            app.start()
+            #app.start()
             await app.send_message(int(mirr_chat), mirr_msg)
-            app.stop()
+            #app.stop()
             await bot.edit_message_text(
                 chat_id=message.chat.id,
                 message_id=process.id,
