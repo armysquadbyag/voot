@@ -65,3 +65,4 @@ async def id(bot, message):
             await bot.delete_messages(message.chat.id, del_msg_id)
 print("Bot Started!")
 bot.run()
+app.run()
