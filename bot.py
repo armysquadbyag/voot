@@ -52,11 +52,11 @@ async def id(app, message):
             #app.start()
             await app.send_message(mirr_chat, mirr_msg)
             #app.stop()
-            await app.edit_message_text(
-                chat_id=message.chat.id,
-                message_id=process.id,
-                text=f"**Here Is Your Link:**\n\n`{final_link}`"
-                )
+            #await app.edit_message_text(
+                #chat_id=message.chat.id,
+                #message_id=process.id,
+                #text=f"**Here Is Your Link:**\n\n`{final_link}`"
+                #)
             # await message.reply_text(f"**Here Is Your Link:**\n\n`{final_link}`", quote= True)
             db.rem(str(message.from_user.id))
         else:
